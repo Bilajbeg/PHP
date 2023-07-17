@@ -1,0 +1,23 @@
+/* Style for the character list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for each character item */
+li {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style for character name */
+li strong {
+    color: #007BFF;
+}
+
+/* Style for character franchise */
+li span {
+    color: #FFC107;
+}
