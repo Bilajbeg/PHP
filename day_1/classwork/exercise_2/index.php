@@ -7,5 +7,14 @@
 </head>
 <body>
     
+    <?php
+        $name = "John Doe";
+        $age = "25";
+        $profession = "Web Developer";
+    ?>
+
+    <h1>Hi my name is <?= $name;?> and I am <?= $age;?> years
+and my profession is <?= $profession;?></h1>
+
 </body>
 </html>
