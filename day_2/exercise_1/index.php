@@ -19,7 +19,13 @@
     <a href="index.php">Reset</a>
 
     <?php
-        
+        if (isset($_POST['submit'])){
+            if ($_POST['firstName'] && $_POST['lastName']){
+                echo '<span sytle="color:green"> Welcome'. ' ' . $_POST['']
+ 
+
+            }
+        }
     ?>
 </body>
 </html>
