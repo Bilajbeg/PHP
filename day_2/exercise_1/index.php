@@ -3,25 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>exercise_1</title>
 </head>
 <body>
-    <?php
-if (isset($_POST['name']) && isset($_POST['surname'])) {
-    $name = trim($_POST['name']);
-    $surname = trim($_POST['surname']);
+    <form  method="POST">
+        Name:
+        <input type="text" name="firstName">
+        <br>
+        Surname:
+        <input type="text" name="lastName">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <a href="index.php">Reset</a>
 
-    if (!empty($name) && !empty($surname)) {
-        echo "Welcome $name $surname!";
-    } elseif (empty($name)) {
-        echo "Please insert your name.";
-    } else {
-        echo "Please insert your surname.";
-    }
-} else {
-    echo "Form submission failed. Please try again.";
-}
-?>
-    
+    <?php
+        
+    ?>
 </body>
 </html>
