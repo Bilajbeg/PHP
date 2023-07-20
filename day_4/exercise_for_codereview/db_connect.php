@@ -1,8 +1,8 @@
 <?php
 
-    $userName = "rooot";
-    $hostName = "localhost";
-    $password = "";
-    $dbName = "restaurant";
+$userName = "root";
+$hostName = "localhost";
+$password = "";
+$dbName = "restaurant";
 
-    $connect = mysqli_connect($hostName,$userName,$password,$dbName);
+$connect = mysqli_connect($hostName, $userName, $password, $dbName);
