@@ -42,6 +42,14 @@ mysqli_close($connect);
 <body>
     <h1>Hello</h1>
 
+    <div class="container mt-5">
+        <a class="btn btn-secondary" href="create.php">Create a product</a>
+        <h1 class="mt-5">Products List</h1>
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-xs-1">
+            <?= $cards ?>
+        </div>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
